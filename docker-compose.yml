@@ -11,7 +11,7 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql    # Persistent data storage
     ports:
-      - "3306:3306"                  # Map port 3306 of the container to port 3306 on the host
+      - "3307:3306"                  # Map port 3307 of the container to port 3306 on the host
     restart: unless-stopped
 
 volumes:
